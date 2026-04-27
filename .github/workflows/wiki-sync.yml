@@ -6,6 +6,9 @@ on:
     paths:
       - "docs/**"
 
+permissions:
+  contents: read
+
 jobs:
   sync:
     runs-on: ubuntu-latest
